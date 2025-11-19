@@ -228,7 +228,7 @@ export default function CartPage() {
 
                 {savings > 0 && (
                   <div className="flex justify-between text-success">
-                    <span>You're Saving</span>
+                    <span>You&apos;re Saving</span>
                     <span className="font-semibold">-{formatPrice(savings)}</span>
                   </div>
                 )}

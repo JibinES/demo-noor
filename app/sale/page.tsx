@@ -60,7 +60,7 @@ export default function SalePage() {
             🎉 Seasonal Sale
           </h2>
           <p className="text-lg">
-            Don't miss out on these amazing deals - Limited stock available!
+            Don&apos;t miss out on these amazing deals - Limited stock available!
           </p>
         </div>
 

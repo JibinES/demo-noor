@@ -121,7 +121,7 @@ export default function CollectionsPage() {
         {/* Bottom CTA */}
         <div className="mt-16 text-center bg-emerald/10 rounded-2xl p-12">
           <h2 className="font-display text-3xl font-bold text-charcoal mb-4">
-            Can't Find What You're Looking For?
+            Can&apos;t Find What You&apos;re Looking For?
           </h2>
           <p className="text-gray-600 mb-6">
             Browse our complete catalog or get in touch with our styling experts

@@ -154,7 +154,7 @@ export default function HomePage() {
               <h2 className="font-display text-3xl md:text-4xl font-bold text-charcoal mb-2">
                 Best Sellers
               </h2>
-              <p className="text-gray-600">Our customers' favorite picks</p>
+              <p className="text-gray-600">Our customers&apos; favorite picks</p>
             </div>
             <Link href="/bestsellers" className="hidden md:inline-flex items-center gap-2 text-emerald font-semibold hover:gap-3 transition-all">
               View All <ArrowRight className="w-5 h-5" />

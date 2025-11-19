@@ -291,7 +291,7 @@ export default function ProductDetailPage() {
             ) : (
               <div className="bg-gray-100 text-center py-4 rounded-lg mb-8">
                 <p className="text-gray-600 font-semibold">Currently Out of Stock</p>
-                <p className="text-sm text-gray-500 mt-1">We'll notify you when it's back</p>
+                <p className="text-sm text-gray-500 mt-1">We&apos;ll notify you when it&apos;s back</p>
               </div>
             )}
 
@@ -356,7 +356,7 @@ export default function ProductDetailPage() {
                     </li>
                   ))}
                 </ul>
-                <h3 className="font-semibold text-charcoal mb-3">What's Included:</h3>
+                <h3 className="font-semibold text-charcoal mb-3">What&apos;s Included:</h3>
                 <ul className="space-y-1">
                   {product.includedItems.map((item, index) => (
                     <li key={index} className="text-gray-700">• {item}</li>
