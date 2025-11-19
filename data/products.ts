@@ -456,4 +456,4 @@ export const getNewArrivals = () =>
     .slice(0, 8);
 
 export const getSaleProducts = () =>
-  allProducts.filter((p) => p.salePrice !== null && p.salePrice > 0);
+  allProducts.filter((p) => p.salePrice !== null && p.salePrice !== undefined && p.salePrice > 0);
